@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="container" class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div id="sidebar" class="col-sm-4 col-md-4 col-lg-2">
+                <ul>
+                    <li><a href="#"><img src="./img/D.svg" />Democratrade</a></li>
+                    <li class="active"><a href="#"><img src="./img/D.svg" />Marketplace</a></li>
+                    <li><a href="#"><img src="./img/D.svg" />Portfolio</a></li>
+                    <li><a href="#"><img src="./img/D.svg" />Achievements</a></li>
+                    <li><a href="#"><img src="./img/D.svg" />Settings</a></li>
+                </ul>
+            </div>
+            <div class="col-sm p-4" id="mainArea">
+                <h3 class="header">Marketplace</h3>
+                <div id="filterbar">
+                    <div class="form-group">
+                        <span for="risk">Risk</span>
+                        <select class="form-control" id="risk" name="risk">
+                            <option>Low</option>
+                            <option>Medium</option>
+                            <option>High</option>
+                        </select>
+
+                        <span for="period">Period</span>
+                        <select style="width: 150px;" class="form-control" id="period" name="period">
+                            <option>3 Months</option>
+                            <option>6 Months</option>
+                            <option>1 Year</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group right">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text m-0 bg-white">@</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search for a trader">
+                        </div>
+                        <div class="btn btn-primary ml-2">search</div>
+                    </div>
+                </div>
+
+                <div class="main">
+                    <h3 class="tableHeader">Subscriber List</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Name</th>
+                                <th>Subscribers</th>
+                                <th>Statistics</th>
+                                <th>Growth Factor</th>
+                                <th>Risk Level</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td width="40px">
+                                    <div class="avatar"></div>
+                                </td>
+                                <td>Jacob Jones</td>
+                                <td>125,000</td>
+                                <td><img height="30px" src="./img/data.svg" alt=""></td>
+                                <td class="green">2.6%</td>
+                                <td class="green">Low</td>
+                                <td>
+                                    <div class="btn btn-primary">view</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="40px">
+                                    <div class="avatar"></div>
+                                </td>
+                                <td>Jacob Jones</td>
+                                <td>125,000</td>
+                                <td><img height="30px" src="./img/data.svg" alt=""></td>
+                                <td class="green">2.6%</td>
+                                <td class="green">Low</td>
+                                <td>
+                                    <div class="btn btn-primary">view</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="40px">
+                                    <div class="avatar"></div>
+                                </td>
+                                <td>Jacob Jones</td>
+                                <td>125,000</td>
+                                <td><img height="30px" src="./img/data.svg" alt=""></td>
+                                <td class="green">2.6%</td>
+                                <td class="green">Low</td>
+                                <td>
+                                    <div class="btn btn-primary">view</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="40px">
+                                    <div class="avatar"></div>
+                                </td>
+                                <td>Jacob Jones</td>
+                                <td>125,000</td>
+                                <td><img height="30px" src="./img/data.svg" alt=""></td>
+                                <td class="green">2.6%</td>
+                                <td class="green">Low</td>
+                                <td>
+                                    <div class="btn btn-primary">view</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="40px">
+                                    <div class="avatar"></div>
+                                </td>
+                                <td>Jacob Jones</td>
+                                <td>125,000</td>
+                                <td><img height="30px" src="./img/data.svg" alt=""></td>
+                                <td class="green">2.6%</td>
+                                <td class="green">Low</td>
+                                <td>
+                                    <div class="btn btn-primary">view</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="display: flex; margin-top: 15px; justify-content: center;">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#"><</a></li>
+                            <li class="page-item"><a class="page-link activePage" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

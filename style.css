@@ -1,0 +1,148 @@
+body{
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar{
+    background-color: black;
+}
+
+#mainArea{
+    height: 100vh;
+    overflow: auto;
+}
+
+#sidebar ul{
+    height: 100vh;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0 10%;
+}
+
+#sidebar li{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: 400 !important;
+    border-radius: 5px;
+}
+
+#sidebar li:first-child{
+    padding: 60px 10px;
+    font-weight: 600 !important;
+}
+
+#sidebar li:first-child:hover{
+    background-color: transparent;
+}
+
+#sidebar a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 0px;
+}
+
+#sidebar li:hover{
+    background-color: rgb(71, 67, 67, 0.5);
+    color: white;
+}
+
+#sidebar img{
+    height: 18px;
+    margin-right: 8px;
+    position: relative;
+    top: -2px;
+}
+
+#filterbar{
+    height: 85px;
+    background-color: white;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#filterbar .form-group{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#filterbar span {
+    margin: 0 15px;
+}
+
+.main{
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.table th{
+    color: #4E5868;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.table td{
+    color: #0A1931;
+    font-weight: normal;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 28px;
+    color: #0A1931;
+}
+
+.tableHeader{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+    columns: black;
+}
+
+.avatar{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.green{
+    color: #00C064 !important;
+    font-weight: 600 !important;
+}
+
+.right{
+    position: absolute;
+    right: 25px;
+}
+
+.page-link{
+    border: none;
+    font-weight: 500;
+    border-radius: 3px;
+    color: #4A5568;
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+.activePage{
+    background-color: #185ADB;
+    color: white;
+}
+
+.active{
+    background-color: #185ADB !important;
+    color: white;
+}
