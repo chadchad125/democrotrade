@@ -4,6 +4,22 @@ body{
     margin: 0;
 }
 
+.round{
+    border-radius: 5px;   
+}
+
+.bg-blue{
+    background-color: #185ADB;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
 #sidebar{
     background-color: black;
 }
@@ -145,4 +161,75 @@ body{
 .active{
     background-color: #185ADB !important;
     color: white;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.small-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.port-profile{
+    color: white;
+    padding: 15px;
+}
+
+.port-profile h4{
+    margin-top: 8px;
+}
+
+.trade-card{
+    padding: 15px;
+    border: 1px solid #B3B8CD;
+    border-radius: 10px;
+    width: 48%;
+    margin-top: 10px;
+}
+
+.trade-card h6{
+    color: #706D6E;
+    font-size: 13px;
+}
+
+.trade-card h5{
+    color: #4E5868;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.trade-card h4{
+    color: #0A1931;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.flex-container{
+    display: flex; 
+    justify-content: space-between; 
+    flex-flow: wrap;
+}
+
+.timeline{
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 5px;
+}
+
+.timeline h6{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.chart{
+    height: 300px; 
+    width: 100%; 
+    background-image: url("./img/data\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
