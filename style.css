@@ -134,6 +134,13 @@ body{
     background-color: gray;
 }
 
+.avatar2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
 .green{
     color: #00C064 !important;
     font-weight: 600 !important;
@@ -188,6 +195,7 @@ body{
     border-radius: 10px;
     width: 48%;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .trade-card h6{
@@ -232,4 +240,34 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.color-black{
+    color: #0A1931;
+}
+
+.trade-card-small{
+    padding: 15px;
+    border: 1px solid #B3B8CD;
+    border-radius: 10px;
+    width: 24%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.trade-card-small h6{
+    color: #706D6E;
+    font-size: 13px;
+}
+
+.trade-card-small h5{
+    color: #4E5868;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.trade-card-small h4{
+    color: #0A1931;
+    font-size: 16px;
+    font-weight: 600;
 }
